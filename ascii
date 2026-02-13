@@ -1,0 +1,4 @@
+char=map(input("enter a character").split(","))
+ascii_value=ord(char)
+print("ascii value of",char,"is",ascii_value)
+
