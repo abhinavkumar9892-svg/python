@@ -1,0 +1,15 @@
+import numpy as np
+array = np.array([18, 30, 20, 10, 30, 60])
+print("Array:",np.array)
+first_element = array[0]      
+fourth_element = array[3]    
+last_element = array[5]
+#Indexing      
+print("First element:",first_element)
+print ("Fourth element:",fourth_element,)
+print("Last element:",last_element)
+#slicing
+print("Elements from index 2 to 5:",array[2:5])
+print("First 3 elemnts:",array[:3] )
+print("Elements from index 4 to the end:",array[4:])
+
