@@ -1,0 +1,6 @@
+print("enter your own range")
+start = int(input("Start number: "))
+end = int(input("End number (inclusive): "))
+
+result = [(x, x*x) for x in range(start, end + 1)]
+print("Your custom list:", result)
