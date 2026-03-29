@@ -1,0 +1,23 @@
+f = open("sample.txt", "w")
+f.write("Hello\n")
+f.write("abhinav\n")
+f.close()
+
+f = open("sample.txt", "a")
+f.writelines(["clang\n", "eat and sleep\n"])
+f.close()
+
+f = open("sample.txt", "r")
+print("read() output:")
+print(f.read())
+f.close()
+
+f = open("sample.txt", "r")
+print("readline() output:")
+print(f.readline())
+f.close()
+
+f = open("sample.txt", "r")
+print("readlines() output:")
+print(f.readlines())
+f.close()
