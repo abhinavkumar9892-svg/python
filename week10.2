@@ -1,0 +1,20 @@
+import pandas as pd
+
+
+data = {
+    'Name': ['Alice', 'Bob', 'Charlie', 'David'],
+    'Age': [25, 30, 22, 28]
+}
+
+
+df = pd.DataFrame(data)
+
+
+sorted_df = df.sort_values(by='Age')
+
+
+sliced_df = sorted_df.head(2)
+
+
+print("Sorted Data:\n", sorted_df)
+print("\nSliced Data (First 2 Rows):\n", sliced_df)
