@@ -1,0 +1,12 @@
+n = int(input("Enter number of tuples: "))
+
+tuple_list = []
+
+for i in range(n):
+   elements = tuple(map(int, input("Enter tuple elements separated by space: ").split()))
+   tuple_list.append(elements)
+
+sorted_list = sorted(tuple_list, key=lambda x: x[-1])
+
+print("Original list:", tuple_list)
+print("Sorted list:", sorted_list)
